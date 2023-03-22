@@ -1,8 +1,3 @@
-const products = [
-    { name: "apple", price: 0.99 },
-    { name: "orange", price: 1.49 },
-    { name: "banana", price: 0.49 },
-    { name: "pear", price: 1.99 }
-  ];
-const maior = products.filter(product => product.price > 1.0);
-console.log(maior);
+const numbers = [1, 2, 3, 4, 3, 2, 5, 6, 5];
+const unicos = numbers.filter(number => number != number);
+console.log(unicos);
